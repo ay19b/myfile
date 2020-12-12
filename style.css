@@ -1,0 +1,283 @@
+body{
+    margin:0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.container{
+    width:1007px;
+    height: 800px;
+    margin: 0px auto;
+    background-image: url(https://www.myanmore.com/wp-content/uploads/2019/05/netflix-background-9.jpg);
+    background-size: cover;
+
+}
+.layot{
+    background: #100f0fb0;
+    width:1007px;
+    height: 800px;
+    z-index: 1;
+}
+.layot .border{
+    display: initial;
+}
+.border .log{
+    color: red;
+    display: inline-block;
+    padding:20px;
+    font-size: 40px;
+}
+.border button{
+    float: right;
+    padding:10px;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-right: 15px;
+    background: red;
+    border: none;
+    color: rgb(253, 253, 253);
+    width: 82px;
+    border-radius: 10%;
+}
+.layot .text-contain{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+.layot .text-contain h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 257px;
+    position: absolute;
+}
+.layot .text-contain span {
+    font-size: 30px;
+    margin-left: -224px;
+    position: absolute;
+    margin-top: 164px;
+}
+.layot .text-contain .fill-inp{
+    position: relative;
+    margin-top: 213px;
+    margin-bottom: 10px;
+    margin-left: 260px;
+    margin-top: 22px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.layot .text-contain .fill-inp input{
+    position: absolute;
+    margin-top: 213px;
+    margin-bottom: 10px;
+    margin-left: 224px;
+    width: 400px;
+    height: 45px;
+    outline: none;
+    right: 372px;
+}
+.layot .text-contain .fill-inp button{
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100px;
+    height: 51px;
+    position: absolute;
+    top: 213px;
+}
+
+.layot .text-contain .under-text{
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 264px;
+    left: 150px;
+}
+
+/*second page*/
+.page{
+  background: black;
+  margin-top: 0px;
+  height: 400px;
+}
+
+.page .contain-page{
+    display: inline-flex;
+}
+.page .contain-page .text-page{
+    padding-top: 82px;
+    margin-left: 20px;
+}
+.page .contain-page .text-page h1{
+    color:white;
+    font-size:45px;
+    font-weight: bold;
+    margin-bottom: -16px;
+}
+.page .contain-page .text-page p{
+    color:white;
+    font-size:25px;
+}
+.page .contain-page img{
+    width: 280px;
+    height: 200px;
+    margin-top: 80px;
+    margin-right: 156px;
+    margin-left: 24px;
+}
+.line{
+    background: #4a4646;
+    width: 1007px;
+    height: 9px;
+    z-index: 3;
+}
+
+.third{
+    height: 680px;
+}
+.head-accord {
+    margin-top: -40px;
+}
+
+.head-accord h1{
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 48px;
+}
+
+.all-accord{
+    margin-top: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.accordion{
+    width: 560px;
+    height: 60px;
+    margin-left: 5px;
+    text-align: left;
+    margin-top: -21px;
+    cursor: pointer;
+    color: #fbfafa;
+    background: #443e3e;
+    border: none;
+    padding-left: 25px;
+    outline: none;
+    font-size: 20px;
+}
+  
+
+
+span{
+  float:right;
+}
+.panel{
+    background: black;
+    margin-top: 0px;
+    width: 309px;
+    padding: 20px;
+    margin-bottom: -11px;
+    margin-left:80px;
+    color:white;
+}
+
+.all-accord .panel p{
+    background: white;
+    margin-top: 0px;
+    width: 331px;
+    padding: 20px;
+    margin-bottom: -1px;
+    display: none;
+}
+
+.page-accord .fill-inp.last{
+    margin-top: 22px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.page-accord .fill-inp.last input{
+    width: 400px;
+    height: 45px;
+    outline: none;
+}
+
+.page-accord .fill-inp.last button{
+    width: 100px;
+    height: 51px;
+    background: red;
+    color:white;
+    border: none;
+    cursor: pointer;
+}
+
+.page-accord p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.head-page{
+    color: white;
+    padding-top: 60px;
+    padding-left: 60px;
+}
+
+main{
+    position: relative;
+}
+main ul {
+    color: white;
+    list-style: none;
+    margin-top: 17px;
+}
+main ul li{
+    margin-top: 15px;
+}
+
+main ul:nth-child(1){
+    position: absolute;
+    margin-left: 20px;
+}
+main ul:nth-child(2){
+    position: absolute;
+    margin-left: 210px;
+}
+main ul:nth-child(3){
+    position: absolute;
+    margin-left: 460px;
+}
+main ul:nth-child(4){
+    position: absolute;
+    margin-left: 700px;
+}
+main ul li:hover{
+    color:red;
+    text-decoration: underline;
+}
+
+
+
